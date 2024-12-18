@@ -17,6 +17,7 @@ WHITE = (255, 255, 255)
 RED = (255, 0, 0)
 GREEN = (0, 255, 0)
 LIGHT_BLUE = (173, 216, 230)
+ROYALBLUE= (65,105,225)
 
 snake_block = 10
 snake_speed = 15
@@ -161,7 +162,7 @@ while not game_over:
 
 
     for segment in snake_list:
-        pygame.draw.rect(screen, WHITE, [segment[0], segment[1], snake_block, snake_block])
+        pygame.draw.rect(screen, ROYALBLUE, [segment[0], segment[1], snake_block, snake_block])
 
 
     if x1 == foodx and y1 == foody:
