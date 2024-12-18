@@ -15,6 +15,7 @@ pygame.display.set_caption('贪吃蛇-By Winston Wu')
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 RED = (255, 0, 0)
+GREEN = (0, 255, 0)
 LIGHT_BLUE = (173, 216, 230)
 ROYALBLUE= (65,105,225)
 
